@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+<h2>CatPhotoApp</h2>
+</head>
+<body>
+<main>
+
+    <p> View more 
+        <a href="#"> "https://www.pexels.com/" target="_blank">cat photos</a> 
+        </p>
+        <a href="#">
+            <img src="https://www.pexels.com/photo/gray-cat-on-tree-branch-1693441/" alt="Dragon cat.">
+        </a>
+        <p>Things cats love:</p>
+        <ul>
+            <li>milk</li>
+            <li>cheese</li>
+            <li>birds</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+            <li>water</li>
+            <li>dogs</li>
+            <li>airplane</li>
+        </ol>
+        
+        <form action="/submit-cat-photo">
+            <input type="text" placeholder="cat Photo URL" required> <!-- need a requirement -->
+           <div>
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+        </div>
+        <div>
+           <label type="checkbox" name="favorite_pet" value="Dog">Dogs</label>
+           <label type="checkbox" name="favorite_pet" value="Cat">Cats</label>
+           <label type="checkbox" name="favorite_pet" value="Hamster">Hamsters</label>
+           <label type="checkbox" name="favorite_pet" value="Bird">Birds</label>
+           <label type="checkbox" name="favorite_pet" value="Fish">Fishs</label>
+        </div>
+           
+           
+           
+            <button type="submit">Submit</button>
+            </form> 
+     </body>
+</main>    
+</html>
