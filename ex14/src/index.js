@@ -23,3 +23,8 @@ function myForLoop2() {
 }
 
 console.log(myForLoop2());
+
+module.exports = {
+    myForLoop1,
+    myForLoop2
+};
